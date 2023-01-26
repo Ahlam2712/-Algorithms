@@ -1,4 +1,4 @@
-def PrefixToPostfix(exp)
+def PrefixToPostfix(exp):
     stack = []
     operators = ['+', '-', '*', '/', '^']
     ex = exp[::-1]
